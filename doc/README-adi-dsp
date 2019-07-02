@@ -8,11 +8,11 @@ sound across a network.
 There are two plugins in the suite, one for PCM and one for mixer control. A
 typical configuration will look like:
 
-    pcm.pulse {
+    pcm.adi_dsp {
         type pulse
     }
 
-    ctl.pulse {
+    ctl.adi_dsp {
         type pulse
     }
 
